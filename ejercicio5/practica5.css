@@ -1,0 +1,43 @@
+/* Reglas de la practica css cajas flotantes
+padding se paración entre la caja y el texto dentro	*/
+
+body{
+	color: white; 
+}
+
+h1{
+	color: black;
+	text-align: center;
+}
+
+div{
+	width: 200px;
+	height: 100px;
+	padding: 30px;
+	text-align: center;
+	border-radius: 40px; 
+}
+
+#cajaNegra{
+	background-color: black;
+	/*float: left;*/ /*La caja siempre va a estar al lado indicado*/
+	clear: both; /*Va a estar siempre limpio a los dos lados de la caja*/
+	width: 100%;/*La caja va a ocupar el 100% de la pantalla seleccionada*/
+}
+
+#cajaAzul{
+	background-color: blue;
+	float: right;
+}
+
+#cajaVerde{
+	background-color: green;
+	float: left;
+}
+
+#cajaRoja{
+	background-color: red;
+	/*float: right;*/
+	clear: both; /*Va a estar siempre limpio a los dos lados de la caja*/
+	width: 100%;/*La caja va a ocupar el 100% de la pantalla seleccionada*/
+}

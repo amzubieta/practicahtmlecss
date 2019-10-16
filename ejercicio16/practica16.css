@@ -1,0 +1,31 @@
+body{
+  background-image: linear-gradient(to right, rgba(36, 137, 44, 0.61), white);
+}
+
+.p1{
+  background-image:linear-gradient(to left, rgba(49, 89, 195, 0.76), white, rgba(0, 128, 20, 0.66));
+}
+
+.p2{
+  background-image: radial-gradient(orange 50%, white);
+}
+
+.p3{
+  background-image: linear-gradient(to right, red, orange, white, yellow);
+}
+
+header{
+  border: solid black 1px;
+  border-radius: 25px;
+  padding: 20xp;
+  text-align: center;
+  background-image: linear-gradient(to right, green, whithe);
+}
+
+p{
+  border: 1px black solid;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}

@@ -1,0 +1,22 @@
+/*Hojas de estilos Practica7.css 
+*/
+h2{
+	text-align: center;
+}
+
+header{
+	background-color: blue; 
+	text-align: center;
+	padding: 20px; 
+}
+section{
+	width: 33%;
+	float: left;
+}
+footer{
+	background-color: blue; 
+	text-align: center;
+	padding: 20px; 
+	clear: both;
+}
+
